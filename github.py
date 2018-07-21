@@ -11,5 +11,5 @@ event = response.json()[0]['type']
 creation_date = response.json()[0]['created_at']
 
 print("The user {}'s latest event was {} on {}".format(user,
-                                                     event,
-                                                     creation_date))
+                                                       event,
+                                                       creation_date))
